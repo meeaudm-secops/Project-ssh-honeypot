@@ -1,1 +1,2 @@
-d
+docker run -d -p 2222:2222 --name ssh-honeypot -v $(pwd)/logs:/cowrie/cowrie-stdout cowrie/cowrie:latest
+
